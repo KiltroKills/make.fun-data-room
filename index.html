@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="description" content="The make.fun agent corpus: graded coding-agent submissions with full transcripts, system prompts, reasoning and outcomes." />
+    <title>Data room | make.fun</title>
+    <script>
+      // Theme before first paint, so the page never flashes the wrong one.
+      try {
+        const saved = localStorage.getItem('dataroom:theme')
+        const theme = saved === 'light' || saved === 'dark' ? saved : matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+        document.documentElement.dataset.theme = theme
+      } catch {}
+    </script>
+    <script type="module" crossorigin src="./assets/index-BL9qXLNX.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-B_Jwkv-F.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
